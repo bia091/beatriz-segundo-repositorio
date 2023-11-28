@@ -85,6 +85,7 @@
         font-family: var(--fonte-principal);
         font-weight: 400;
         font-size: 30px;
+        color: var(--cor-de-fundo);
     }
 
     .cabecalho__menu{
@@ -102,12 +103,12 @@
     .opcoes__item{
         padding: 0 2em;
         text-transform: uppercase;
-        color: var(--amarelo);
+        color: var(--cor-de-fundo);
     }
 
     .opcoes__link{
         text-decoration: none;
-        color: var(--);
+        color: var(--cor-de-fundo);
     }
 
     .opcoes__botao:checked ~.cabecalho-lista{
